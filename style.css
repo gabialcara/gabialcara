@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url('https://via.placeholder.com/1200x800'); /* Adicionando imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 0;
+    font-style: italic;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#song {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#youtube-link {
+    font-size: 1.2rem;
+    color: #FF0000; /* Cor vermelha típica do YouTube */
+    margin-top: 20px; /* Espaçamento entre o link e o botão */
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#youtube-link:hover {
+    color: #FF5733; /* Cor ao passar o mouse */
+}
+
+button {
+    background: linear-gradient(to right, #4CAF50, #8BC34A); /* Efeito gradiente no botão */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to left, #8BC34A, #4CAF50);
+}
